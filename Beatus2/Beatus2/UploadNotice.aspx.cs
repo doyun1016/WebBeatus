@@ -35,9 +35,7 @@ namespace Beatus2
                 Page.ClientScript.RegisterClientScriptBlock(typeof(Page), "Alert", "alert('내용을 입력해 주세요.')", true);
             }
 
-            /*삭제 필수*/
             string UserName = "";
-            /*삭제 필수*/
 
             //작성자 확인
             if (/*작성자 == 운영자*/ true)

@@ -130,6 +130,7 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="assets\css\Login.css" />
+    <Content Include="assets\css\UploadNotice.css" />
     <Content Include="assets\img\orange.PNG" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -180,6 +181,7 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
+    <Content Include="UploadNotice.aspx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
     <Content Include="Site.Mobile.Master" />
@@ -232,6 +234,13 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UploadNotice.aspx.cs">
+      <DependentUpon>UploadNotice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UploadNotice.aspx.designer.cs">
+      <DependentUpon>UploadNotice.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
