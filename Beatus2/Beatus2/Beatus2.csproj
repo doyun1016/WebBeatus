@@ -130,7 +130,195 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="assets\css\Login.css" />
+    <Content Include="assets\css\UploadNotice.css" />
     <Content Include="assets\img\orange.PNG" />
+    <Content Include="Beatus2\About.aspx" />
+    <Content Include="Beatus2\assets\css\Login.css" />
+    <Content Include="Beatus2\assets\css\UploadNotice.css" />
+    <Content Include="Beatus2\assets\img\orange.PNG" />
+    <Content Include="Beatus2\Beatus2.csproj" />
+    <Content Include="Beatus2\Beatus2.csproj.user" />
+    <Content Include="Beatus2\bin\Antlr3.Runtime.dll" />
+    <Content Include="Beatus2\bin\Antlr3.Runtime.pdb" />
+    <Content Include="Beatus2\bin\AspNet.ScriptManager.bootstrap.dll" />
+    <Content Include="Beatus2\bin\AspNet.ScriptManager.jQuery.dll" />
+    <Content Include="Beatus2\bin\Beatus2.dll" />
+    <Content Include="Beatus2\bin\Beatus2.pdb" />
+    <Content Include="Beatus2\bin\BouncyCastle.Crypto.dll" />
+    <Content Include="Beatus2\bin\Google.Protobuf.dll" />
+    <Content Include="Beatus2\bin\Google.Protobuf.xml" />
+    <Content Include="Beatus2\bin\ko\Microsoft.AspNet.FriendlyUrls.resources.dll" />
+    <Content Include="Beatus2\bin\ko\System.Web.Optimization.resources.dll" />
+    <Content Include="Beatus2\bin\Microsoft.AspNet.FriendlyUrls.dll" />
+    <Content Include="Beatus2\bin\Microsoft.AspNet.FriendlyUrls.xml" />
+    <Content Include="Beatus2\bin\Microsoft.AspNet.TelemetryCorrelation.dll" />
+    <Content Include="Beatus2\bin\Microsoft.AspNet.TelemetryCorrelation.xml" />
+    <Content Include="Beatus2\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll" />
+    <Content Include="Beatus2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
+    <Content Include="Beatus2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
+    <Content Include="Beatus2\bin\Microsoft.ScriptManager.MSAjax.dll" />
+    <Content Include="Beatus2\bin\Microsoft.ScriptManager.WebForms.dll" />
+    <Content Include="Beatus2\bin\Microsoft.Web.Infrastructure.dll" />
+    <Content Include="Beatus2\bin\MySql.Data.dll" />
+    <Content Include="Beatus2\bin\MySql.Data.xml" />
+    <Content Include="Beatus2\bin\Newtonsoft.Json.dll" />
+    <Content Include="Beatus2\bin\Newtonsoft.Json.xml" />
+    <Content Include="Beatus2\bin\Renci.SshNet.dll" />
+    <Content Include="Beatus2\bin\Renci.SshNet.xml" />
+    <Content Include="Beatus2\bin\roslyn\csc.exe" />
+    <Content Include="Beatus2\bin\roslyn\csi.exe" />
+    <Content Include="Beatus2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll" />
+    <Content Include="Beatus2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll" />
+    <Content Include="Beatus2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll" />
+    <Content Include="Beatus2\bin\roslyn\Microsoft.CodeAnalysis.dll" />
+    <Content Include="Beatus2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll" />
+    <Content Include="Beatus2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll" />
+    <Content Include="Beatus2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll" />
+    <Content Include="Beatus2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll" />
+    <Content Include="Beatus2\bin\roslyn\System.AppContext.dll" />
+    <Content Include="Beatus2\bin\roslyn\System.Collections.Immutable.dll" />
+    <Content Include="Beatus2\bin\roslyn\System.Console.dll" />
+    <Content Include="Beatus2\bin\roslyn\System.Diagnostics.FileVersionInfo.dll" />
+    <Content Include="Beatus2\bin\roslyn\System.Diagnostics.StackTrace.dll" />
+    <Content Include="Beatus2\bin\roslyn\System.IO.Compression.dll" />
+    <Content Include="Beatus2\bin\roslyn\System.IO.FileSystem.dll" />
+    <Content Include="Beatus2\bin\roslyn\System.IO.FileSystem.Primitives.dll" />
+    <Content Include="Beatus2\bin\roslyn\System.IO.Pipes.AccessControl.dll" />
+    <Content Include="Beatus2\bin\roslyn\System.IO.Pipes.dll" />
+    <Content Include="Beatus2\bin\roslyn\System.Reflection.Metadata.dll" />
+    <Content Include="Beatus2\bin\roslyn\System.Security.AccessControl.dll" />
+    <Content Include="Beatus2\bin\roslyn\System.Security.Claims.dll" />
+    <Content Include="Beatus2\bin\roslyn\System.Security.Cryptography.Algorithms.dll" />
+    <Content Include="Beatus2\bin\roslyn\System.Security.Cryptography.Encoding.dll" />
+    <Content Include="Beatus2\bin\roslyn\System.Security.Cryptography.Primitives.dll" />
+    <Content Include="Beatus2\bin\roslyn\System.Security.Cryptography.X509Certificates.dll" />
+    <Content Include="Beatus2\bin\roslyn\System.Security.Principal.Windows.dll" />
+    <Content Include="Beatus2\bin\roslyn\System.Text.Encoding.CodePages.dll" />
+    <Content Include="Beatus2\bin\roslyn\System.ValueTuple.dll" />
+    <Content Include="Beatus2\bin\roslyn\System.Xml.ReaderWriter.dll" />
+    <Content Include="Beatus2\bin\roslyn\System.Xml.XmlDocument.dll" />
+    <Content Include="Beatus2\bin\roslyn\System.Xml.XPath.dll" />
+    <Content Include="Beatus2\bin\roslyn\System.Xml.XPath.XDocument.dll" />
+    <Content Include="Beatus2\bin\roslyn\vbc.exe" />
+    <Content Include="Beatus2\bin\roslyn\VBCSCompiler.exe" />
+    <Content Include="Beatus2\bin\System.Diagnostics.DiagnosticSource.dll" />
+    <Content Include="Beatus2\bin\System.Diagnostics.DiagnosticSource.xml" />
+    <Content Include="Beatus2\bin\System.Web.Optimization.dll" />
+    <Content Include="Beatus2\bin\System.Web.Optimization.xml" />
+    <Content Include="Beatus2\bin\WebGrease.dll" />
+    <Content Include="Beatus2\Contact.aspx" />
+    <Content Include="Beatus2\Content\bootstrap-theme.css" />
+    <Content Include="Beatus2\Content\bootstrap-theme.min.css" />
+    <Content Include="Beatus2\Content\bootstrap.css" />
+    <Content Include="Beatus2\Content\bootstrap.min.css" />
+    <Content Include="Beatus2\Content\Site.css" />
+    <Content Include="Beatus2\Default.aspx" />
+    <Content Include="Beatus2\favicon.ico" />
+    <Content Include="Beatus2\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Beatus2\Global.asax" />
+    <Content Include="Beatus2\Login.aspx" />
+    <Content Include="Beatus2\obj\Debug\Beatus2.csproj.FileListAbsolute.txt" />
+    <Content Include="Beatus2\obj\Debug\Beatus2.dll" />
+    <Content Include="Beatus2\obj\Debug\Beatus2.pdb" />
+    <Content Include="Beatus2\Scripts\bootstrap.js" />
+    <Content Include="Beatus2\Scripts\bootstrap.min.js" />
+    <None Include="Beatus2\Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="Beatus2\Scripts\jquery-3.3.1.js" />
+    <Content Include="Beatus2\Scripts\jquery-3.3.1.min.js" />
+    <Content Include="Beatus2\Scripts\jquery-3.3.1.slim.js" />
+    <Content Include="Beatus2\Scripts\jquery-3.3.1.slim.min.js" />
+    <Content Include="Beatus2\Scripts\modernizr-2.8.3.js" />
+    <Content Include="Beatus2\Scripts\WebForms\DetailsView.js" />
+    <Content Include="Beatus2\Scripts\WebForms\Focus.js" />
+    <Content Include="Beatus2\Scripts\WebForms\GridView.js" />
+    <Content Include="Beatus2\Scripts\WebForms\Menu.js" />
+    <Content Include="Beatus2\Scripts\WebForms\MenuStandards.js" />
+    <Content Include="Beatus2\Scripts\WebForms\MSAjax\MicrosoftAjax.js" />
+    <Content Include="Beatus2\Scripts\WebForms\MSAjax\MicrosoftAjaxApplicationServices.js" />
+    <Content Include="Beatus2\Scripts\WebForms\MSAjax\MicrosoftAjaxComponentModel.js" />
+    <Content Include="Beatus2\Scripts\WebForms\MSAjax\MicrosoftAjaxCore.js" />
+    <Content Include="Beatus2\Scripts\WebForms\MSAjax\MicrosoftAjaxGlobalization.js" />
+    <Content Include="Beatus2\Scripts\WebForms\MSAjax\MicrosoftAjaxHistory.js" />
+    <Content Include="Beatus2\Scripts\WebForms\MSAjax\MicrosoftAjaxNetwork.js" />
+    <Content Include="Beatus2\Scripts\WebForms\MSAjax\MicrosoftAjaxSerialization.js" />
+    <Content Include="Beatus2\Scripts\WebForms\MSAjax\MicrosoftAjaxTimer.js" />
+    <Content Include="Beatus2\Scripts\WebForms\MSAjax\MicrosoftAjaxWebForms.js" />
+    <Content Include="Beatus2\Scripts\WebForms\MSAjax\MicrosoftAjaxWebServices.js" />
+    <Content Include="Beatus2\Scripts\WebForms\SmartNav.js" />
+    <Content Include="Beatus2\Scripts\WebForms\TreeView.js" />
+    <Content Include="Beatus2\Scripts\WebForms\WebForms.js" />
+    <Content Include="Beatus2\Scripts\WebForms\WebParts.js" />
+    <Content Include="Beatus2\Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="Beatus2\UploadCodding.aspx" />
+    <Content Include="Beatus2\UploadNotice.aspx" />
+    <Content Include="bin\Antlr3.Runtime.dll" />
+    <Content Include="bin\Antlr3.Runtime.pdb" />
+    <Content Include="bin\AspNet.ScriptManager.bootstrap.dll" />
+    <Content Include="bin\AspNet.ScriptManager.jQuery.dll" />
+    <Content Include="bin\Beatus2.dll" />
+    <Content Include="bin\Beatus2.pdb" />
+    <Content Include="bin\BouncyCastle.Crypto.dll" />
+    <Content Include="bin\Google.Protobuf.dll" />
+    <Content Include="bin\Google.Protobuf.xml" />
+    <Content Include="bin\ko\Microsoft.AspNet.FriendlyUrls.resources.dll" />
+    <Content Include="bin\ko\System.Web.Optimization.resources.dll" />
+    <Content Include="bin\Microsoft.AspNet.FriendlyUrls.dll" />
+    <Content Include="bin\Microsoft.AspNet.FriendlyUrls.xml" />
+    <Content Include="bin\Microsoft.AspNet.TelemetryCorrelation.dll" />
+    <Content Include="bin\Microsoft.AspNet.TelemetryCorrelation.xml" />
+    <Content Include="bin\Microsoft.AspNet.Web.Optimization.WebForms.dll" />
+    <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
+    <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
+    <Content Include="bin\Microsoft.ScriptManager.MSAjax.dll" />
+    <Content Include="bin\Microsoft.ScriptManager.WebForms.dll" />
+    <Content Include="bin\Microsoft.Web.Infrastructure.dll" />
+    <Content Include="bin\MySql.Data.dll" />
+    <Content Include="bin\MySql.Data.xml" />
+    <Content Include="bin\Newtonsoft.Json.dll" />
+    <Content Include="bin\Newtonsoft.Json.xml" />
+    <Content Include="bin\Renci.SshNet.dll" />
+    <Content Include="bin\Renci.SshNet.xml" />
+    <Content Include="bin\roslyn\csc.exe" />
+    <Content Include="bin\roslyn\csi.exe" />
+    <Content Include="bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll" />
+    <Content Include="bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll" />
+    <Content Include="bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll" />
+    <Content Include="bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll" />
+    <Content Include="bin\roslyn\System.AppContext.dll" />
+    <Content Include="bin\roslyn\System.Collections.Immutable.dll" />
+    <Content Include="bin\roslyn\System.Console.dll" />
+    <Content Include="bin\roslyn\System.Diagnostics.FileVersionInfo.dll" />
+    <Content Include="bin\roslyn\System.Diagnostics.StackTrace.dll" />
+    <Content Include="bin\roslyn\System.IO.Compression.dll" />
+    <Content Include="bin\roslyn\System.IO.FileSystem.dll" />
+    <Content Include="bin\roslyn\System.IO.FileSystem.Primitives.dll" />
+    <Content Include="bin\roslyn\System.IO.Pipes.AccessControl.dll" />
+    <Content Include="bin\roslyn\System.IO.Pipes.dll" />
+    <Content Include="bin\roslyn\System.Reflection.Metadata.dll" />
+    <Content Include="bin\roslyn\System.Security.AccessControl.dll" />
+    <Content Include="bin\roslyn\System.Security.Claims.dll" />
+    <Content Include="bin\roslyn\System.Security.Cryptography.Algorithms.dll" />
+    <Content Include="bin\roslyn\System.Security.Cryptography.Encoding.dll" />
+    <Content Include="bin\roslyn\System.Security.Cryptography.Primitives.dll" />
+    <Content Include="bin\roslyn\System.Security.Cryptography.X509Certificates.dll" />
+    <Content Include="bin\roslyn\System.Security.Principal.Windows.dll" />
+    <Content Include="bin\roslyn\System.Text.Encoding.CodePages.dll" />
+    <Content Include="bin\roslyn\System.ValueTuple.dll" />
+    <Content Include="bin\roslyn\System.Xml.ReaderWriter.dll" />
+    <Content Include="bin\roslyn\System.Xml.XmlDocument.dll" />
+    <Content Include="bin\roslyn\System.Xml.XPath.dll" />
+    <Content Include="bin\roslyn\System.Xml.XPath.XDocument.dll" />
+    <Content Include="bin\roslyn\vbc.exe" />
+    <Content Include="bin\roslyn\VBCSCompiler.exe" />
+    <Content Include="bin\System.Diagnostics.DiagnosticSource.dll" />
+    <Content Include="bin\System.Diagnostics.DiagnosticSource.xml" />
+    <Content Include="bin\System.Web.Optimization.dll" />
+    <Content Include="bin\System.Web.Optimization.xml" />
+    <Content Include="bin\WebGrease.dll" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -149,8 +337,63 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Beatus2\bin\Beatus2.dll.config" />
+    <Content Include="Beatus2\bin\roslyn\csc.exe.config" />
+    <Content Include="Beatus2\bin\roslyn\csc.rsp" />
+    <Content Include="Beatus2\bin\roslyn\csi.exe.config" />
+    <Content Include="Beatus2\bin\roslyn\csi.rsp" />
+    <Content Include="Beatus2\bin\roslyn\Microsoft.CSharp.Core.targets" />
+    <Content Include="Beatus2\bin\roslyn\Microsoft.Managed.Core.targets" />
+    <Content Include="Beatus2\bin\roslyn\Microsoft.VisualBasic.Core.targets" />
+    <Content Include="Beatus2\bin\roslyn\vbc.exe.config" />
+    <Content Include="Beatus2\bin\roslyn\vbc.rsp" />
+    <Content Include="Beatus2\bin\roslyn\VBCSCompiler.exe.config" />
+    <Content Include="Beatus2\Bundle.config" />
+    <Content Include="Beatus2\Content\bootstrap-theme.css.map" />
+    <Content Include="Beatus2\Content\bootstrap-theme.min.css.map" />
+    <Content Include="Beatus2\Content\bootstrap.css.map" />
+    <Content Include="Beatus2\Content\bootstrap.min.css.map" />
+    <Content Include="Beatus2\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Beatus2\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Beatus2\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Beatus2\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Beatus2\obj\Debug\Beatus2.csproj.CopyComplete" />
+    <Content Include="Beatus2\obj\Debug\Beatus2.csproj.CoreCompileInputs.cache" />
+    <Content Include="Beatus2\obj\Debug\Beatus2.csprojAssemblyReference.cache" />
+    <Content Include="Beatus2\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Beatus2\packages.config" />
+    <Content Include="Beatus2\Scripts\jquery-3.3.1.min.map" />
+    <Content Include="Beatus2\Scripts\jquery-3.3.1.slim.min.map" />
+    <Content Include="Beatus2\Site.Master" />
+    <Content Include="Beatus2\Site.Mobile.Master" />
+    <Content Include="Beatus2\Web.config" />
+    <None Include="Beatus2\Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Beatus2\Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="bin\Beatus2.dll.config" />
+    <Content Include="bin\roslyn\csc.exe.config" />
+    <Content Include="bin\roslyn\csc.rsp" />
+    <Content Include="bin\roslyn\csi.exe.config" />
+    <Content Include="bin\roslyn\csi.rsp" />
+    <Content Include="bin\roslyn\Microsoft.CSharp.Core.targets" />
+    <Content Include="bin\roslyn\Microsoft.Managed.Core.targets" />
+    <Content Include="bin\roslyn\Microsoft.VisualBasic.Core.targets" />
+    <Content Include="bin\roslyn\vbc.exe.config" />
+    <Content Include="bin\roslyn\vbc.rsp" />
+    <Content Include="bin\roslyn\VBCSCompiler.exe.config" />
+    <Content Include="obj\Debug\Beatus2.csproj.CopyComplete" />
+    <Content Include="obj\Debug\Beatus2.csproj.CoreCompileInputs.cache" />
+    <Content Include="obj\Debug\Beatus2.csprojAssemblyReference.cache" />
+    <Content Include="obj\Debug\build.force" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Login.aspx" />
+    <Content Include="obj\Debug\Beatus2.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\Beatus2.dll" />
+    <Content Include="obj\Debug\Beatus2.pdb" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -180,6 +423,8 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
+    <Content Include="UploadCodding.aspx" />
+    <Content Include="UploadNotice.aspx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
     <Content Include="Site.Mobile.Master" />
@@ -194,6 +439,72 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Beatus2\About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Beatus2\About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Beatus2\App_Start\BundleConfig.cs" />
+    <Compile Include="Beatus2\App_Start\RouteConfig.cs" />
+    <Compile Include="Beatus2\Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Beatus2\Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Beatus2\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Beatus2\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Beatus2\Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Beatus2\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Beatus2\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Beatus2\Managers\PostManager.cs" />
+    <Compile Include="Beatus2\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="Beatus2\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="Beatus2\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Beatus2\Properties\AssemblyInfo.cs" />
+    <Compile Include="Beatus2\Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Beatus2\Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Beatus2\Site.Mobile.Master.cs">
+      <DependentUpon>Site.Mobile.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Beatus2\Site.Mobile.Master.designer.cs">
+      <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Beatus2\UploadCodding.aspx.cs">
+      <DependentUpon>UploadCodding.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Beatus2\UploadCodding.aspx.designer.cs">
+      <DependentUpon>UploadCodding.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Beatus2\UploadNotice.aspx.cs">
+      <DependentUpon>UploadNotice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Beatus2\UploadNotice.aspx.designer.cs">
+      <DependentUpon>UploadNotice.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -218,6 +529,11 @@
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Managers\PostManager.cs" />
+    <Compile Include="Models\Post.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
@@ -233,9 +549,26 @@
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
+    <Compile Include="UploadCodding.aspx.cs">
+      <DependentUpon>UploadCodding.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UploadCodding.aspx.designer.cs">
+      <DependentUpon>UploadCodding.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UploadNotice.aspx.cs">
+      <DependentUpon>UploadNotice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UploadNotice.aspx.designer.cs">
+      <DependentUpon>UploadNotice.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Beatus2\App_Data\" />
+    <Folder Include="Beatus2\obj\Debug\TempPE\" />
+    <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

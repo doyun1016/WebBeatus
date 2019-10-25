@@ -10,7 +10,7 @@
 namespace Beatus2 {
     
     
-    public partial class _Default {
+    public partial class UploadCodding {
         
         /// <summary>
         /// form1 컨트롤입니다.
