@@ -1,0 +1,13 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Beatus2.SiteMaster" %>
+
+
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    	<asp:ContentPlaceHolder ID="Header" runat="server">
+	</asp:ContentPlaceHolder>
+    </head>
+<body>
+   	<asp:ContentPlaceHolder ID="Contents" runat="server">
+	</asp:ContentPlaceHolder>
+    </body>
