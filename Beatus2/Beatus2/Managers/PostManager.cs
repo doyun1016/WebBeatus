@@ -225,5 +225,101 @@ namespace Beatus2.Managers
                 conn.Close();
             }
         }
+        public static List<Models.Post> GetPostsBySearching(int page, string text, bool isContents, string kind)
+        {
+            MySqlConnection conn = null;
+            try
+            {
+                // Connect to DB;
+                conn = new MySqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["Beatus"].ConnectionString);
+                conn.Open();
+
+                List<Models.Post> postList = new List<Models.Post>();
+
+                // SetColumName
+                string columName = "";
+                if (isContents)
+                    columName = "Content";
+                else
+                    columName = "Title";
+
+                // Get Questions Count
+                string sql = "SELECT count(*) FROM "+kind+" WHERE " + columName + " LIKE '%" + text + "%';";
+                MySqlCommand cmd = new MySqlCommand(sql, conn);
+                int workCount = Convert.ToInt32(cmd.ExecuteScalar());
+
+                // Get Questions
+                sql = "SELECT Id,Name, Title,Date FROM "+kind+" WHERE " + columName + " LIKE '%" + text + "%' ORDER BY Id DESC LIMIT 10 OFFSET " + ((page - 1) * 10) + ";";
+                cmd.CommandText = sql;
+
+                var rdr = cmd.ExecuteReader();
+                while (rdr.Read())
+                {
+                    postList.Add(new Models.Post
+                    {
+                        Id = (int)rdr["Id"],
+                        UserID = (string)rdr["UserID"],
+                        Title = (string)rdr["Title"],
+                        Name = (string)rdr["Name"],
+                        Date = (DateTime)rdr["Date"]
+                    });
+                }
+                rdr.Close();
+                return postList;
+            }
+            catch (Exception e)
+            {
+                // TODO: 예외 처리
+                throw new Exception(e.Message);
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
+
+        /// Get Works by Searching
+        /// 목록 렌더링을 위해 제목과 글번호만 반환
+        /// </summary>
+        public static int GetPagesCountBySearching(int page, string text, bool isContents, string kind)
+        {
+            MySqlConnection conn = null;
+            try
+            {
+                // Connect to DB;
+                conn = new MySqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["Beatus"].ConnectionString);
+                conn.Open();
+
+                // SetColumName
+                string columName = "";
+                if (isContents)
+                    columName = "Content";
+                else
+                    columName = "Title";
+
+                string sql = "SELECT count(*) FROM "+kind+" WHERE " + columName + " LIKE '%" + text + "%';";
+                MySqlCommand cmd = new MySqlCommand(sql, conn);
+                int workCount = Convert.ToInt32(cmd.ExecuteScalar());
+
+                // 공지 갯수의 1의 자리가 0일 경우
+                if (workCount % 10 != 0)
+                {
+                    return workCount / 10 + 1;
+                }
+                else
+                {
+                    return workCount / 10;
+                }
+            }
+            catch (Exception e)
+            {
+                // TODO: 예외 처리
+                throw new Exception(e.Message);
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
     }
 }
