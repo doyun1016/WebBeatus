@@ -46,7 +46,7 @@
         </div>
 
         <!---orangeLineSlim2--->
-        <div class="    " style="height: 2px"></div>
+        <div class="orng" style="height: 2px"></div>
 
        	<asp:ContentPlaceHolder ID="Contents" runat="server">
 	</asp:ContentPlaceHolder>

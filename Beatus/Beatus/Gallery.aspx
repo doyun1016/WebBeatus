@@ -1,9 +1,9 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Gallery.aspx.cs" Inherits="Beatus.Gallery" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/User.Master" AutoEventWireup="true" CodeBehind="Gallery.aspx.cs" Inherits="Beatus.Gallery" %>
+<asp:Content ID="Head" ContentPlaceHolderID="Header" runat="server">
+</asp:Content>
+<asp:Content ID="BodyContent" ContentPlaceHolderID="Contents" runat="server">
 
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+<head >
     <title></title>
     <link rel="stylesheet" href="/assets/css/Gallery.css"/>
 </head>
@@ -85,5 +85,4 @@
   
     <center><hr class="line3" /></center>
     </form>
-</body>
-</html>
+</asp:content>
