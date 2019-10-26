@@ -1,0 +1,179 @@
+﻿* {
+    margin: 0;
+    font-family: SegoeUI;
+}
+
+@font-face {
+    font-family: SegoeUI;
+    src: local("Segoe UI Light"), url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff2) format("woff2"), url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff) format("woff"), url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.ttf) format("truetype");
+}
+
+.logo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 52px 13px;
+}
+
+.logOut {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 46px;
+    width: 46px;
+    border: 1px solid #ed7e32;
+    border-radius: 23px;
+    margin: 72px 59px;
+}
+
+.lcenter {
+    text-align: center;
+    margin-top: 35%;
+    font-size: 11px;
+    font-family: Segoe UI;
+}
+
+div.orng {
+    background-color: #ed7e32;
+}
+
+div.orng {
+    background-color: #ed7e32;
+}
+
+table,
+th,
+td.asd {
+    border-style: solid;
+    border-width: 0 1px;
+    border-color: #ed7e32;
+    text-align: center;
+    padding: 0 62.5px;
+    border-collapse: collapse;
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+a.tops:link {
+    color: #707070;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a.tops:visited {
+    color: #707070;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.table {
+    margin-top: 29.5px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+
+.table2 {
+    margin-top: 7px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+
+.table3 {
+    margin-top: 5px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.table4 {
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+}
+
+.table5 {
+    margin-top: 45px;
+    margin-right: 150px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+}
+
+.table6 {
+    margin-top: 1px;
+    margin-right: 160px;
+    margin-bottom: 1px;
+    margin-left: 160px;
+}
+
+.table7 {
+    margin-top: 1px;
+    margin-right: 160px;
+    margin-left: 160px;
+}
+
+.table8 {
+    margin-top: 20px;
+    margin-right: 150px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+}
+
+.table9 {
+    margin-top: 1px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    margin-left: 150px;
+}
+
+body {
+    margin: 10px;
+}
+
+.where {
+    display: block;
+    margin: 25px 15px;
+    font-size: 11px;
+    color: #000;
+}
+
+.filebox input[type="file"] {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    border: 0;
+}
+
+.filebox label {
+    display: inline-block;
+    padding: 1.5px 1.5px;
+    color: #999;
+    font-size: inherit;
+    line-height: normal;
+    vertical-align: middle;
+    background-color: #fdfdfd;
+    cursor: pointer;
+}
+
+.filebox .upload-name {
+    font-size: inherit;
+}
+
+.filebox.bs3-primary label {
+    color: gray;
+    background-color: white;
+    border-color: gray;
+}
+
+.table6 {
+    margin-top: 1px;
+    margin-right: 160px;
+    margin-bottom: 1px;
+    margin-left: 160px;
+}
