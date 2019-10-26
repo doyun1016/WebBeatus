@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-	<link rel="stylesheet"href="b.css">
+	<link rel="stylesheet"href="assets/css/Gallery10.css"/>
     <title></title>
 </head>
 <body>
@@ -18,7 +18,7 @@
 
         <div>
 
-            <a href="http://www.google.com"><img src="https://i.ibb.co/9wjBCFQ/image.jpg" alt="beatusLogo" border="0" width="90" class="logo"></a>
+            <a href="http://www.google.com"><img src="https://i.ibb.co/9wjBCFQ/image.jpg" alt="beatusLogo" border="0" width="90" class="logo"/></a>
 
         </div>
 
@@ -28,7 +28,7 @@
 
             <center>
 
-                <a href="http://www.google.com"><img src="https://i.ibb.co/59gpXdy/dfgregsrewgrsfgdfgfddfgdfgdd.jpg" alt="beatusSign" height="85" style="margin: 8px;"></a>
+                <a href="http://www.google.com"><img src="https://i.ibb.co/59gpXdy/dfgregsrewgrsfgdfgfddfgdfgdd.jpg" alt="beatusSign" height="85" style="margin: 8px;"/></a>
 
             </center>
 
@@ -56,7 +56,7 @@
 
                     <tr class="asd">
 
-                        <td class="asd"><a class="tops" href="http://www.google.com" target="_self" class="tops">공지사항</a></td>
+                        <td class="asd"><a href="http://www.google.com" target="_self" class="tops">공지사항</a></td>
 
                         <td class="asd"><a href="http://www.google.com" target="_self" class="tops">코딩게시판</a></td>
 
@@ -115,20 +115,6 @@
  <div class = "box1">
 
   </div>
-
-  
-
-  <div class = "text2">
-
-    (사진)
-
-  </div>
-
- 
-
- 
-
-
         <div>
         </div>
     </form>

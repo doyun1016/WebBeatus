@@ -144,6 +144,7 @@
     <Content Include="About.aspx" />
     <Content Include="assets\css\Gallery.css" />
     <Content Include="assets\css\Coding_Upload.css" />
+    <Content Include="assets\css\Gallery10.css" />
     <Content Include="assets\css\Schedule.css" />
     <Content Include="assets\css\Notice.css" />
     <Content Include="assets\css\Intro.css" />
@@ -173,6 +174,8 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Gallery.aspx" />
+    <Content Include="Gallery10.aspx" />
+    <Content Include="gallery9.aspx" />
     <Content Include="Intro.aspx" />
     <Content Include="mainPage.aspx" />
     <Content Include="Login.aspx" />
@@ -278,6 +281,20 @@
     </Compile>
     <Compile Include="Gallery.aspx.designer.cs">
       <DependentUpon>Gallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Gallery10.aspx.cs">
+      <DependentUpon>Gallery10.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gallery10.aspx.designer.cs">
+      <DependentUpon>Gallery10.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Gallery9.aspx.cs">
+      <DependentUpon>gallery9.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gallery9.aspx.designer.cs">
+      <DependentUpon>gallery9.aspx</DependentUpon>
     </Compile>
     <Compile Include="Intro.aspx.cs">
       <DependentUpon>Intro.aspx</DependentUpon>
