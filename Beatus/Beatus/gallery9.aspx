@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Gallery9.aspx.cs" Inherits="Beatus.webform1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Gallery9.aspx.cs" Inherits="Beatus.Gallery9" %>
 
 <!DOCTYPE html>
 

@@ -11,7 +11,7 @@ namespace Beatus
 {
 
 
-    public partial class webform1
+    public partial class Gallery9
     {
 
         /// <summary>
