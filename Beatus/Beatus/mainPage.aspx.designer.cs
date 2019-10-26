@@ -7,13 +7,11 @@
 // </자동 생성됨>
 //------------------------------------------------------------------------------
 
-namespace Beatus2
-{
-
-
-    public partial class WebForm1
-    {
-
+namespace Beatus {
+    
+    
+    public partial class WebForm1 {
+        
         /// <summary>
         /// form1 컨트롤입니다.
         /// </summary>

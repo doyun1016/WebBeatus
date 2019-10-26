@@ -1,9 +1,10 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="mainPage.aspx.cs" Inherits="Beatus2.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="mainPage.aspx.cs" MasterPageFile="~/User.Master" Inherits="Beatus.WebForm1" %>
 
-<!DOCTYPE html>
+<asp:Content ID="Head" ContentPlaceHolderID="Header" runat="server">
+</asp:Content>
+<asp:Content ID="BodyContent" ContentPlaceHolderID="Contents" runat="server">
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+<head >
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <!--styleLoader-->
 		<link rel="stylesheet" href="/assets/css/MainPageStyle.css"/>
@@ -141,5 +142,4 @@
 		<!--sliderStyleLoader-->
 		<link rel="stylesheet" href="assets/css/MainPageSlider.css"/>
     </form>
-</body>
-</html>
+</asp:Content>

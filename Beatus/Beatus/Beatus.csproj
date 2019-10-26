@@ -179,7 +179,7 @@
     <Content Include="Intro.aspx" />
     <Content Include="mainPage.aspx" />
     <Content Include="Login.aspx" />
-    <Content Include="Notice.aspx" />
+    <Content Include="Notices.aspx" />
     <Content Include="obj\Debug\Beatus.csproj.FileListAbsolute.txt" />
     <Content Include="Schedule.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -312,12 +312,12 @@
     </Compile>
     <Compile Include="Mangers\PostManager.cs" />
     <Compile Include="Models\Post.cs" />
-    <Compile Include="Notice.aspx.cs">
-      <DependentUpon>Notice.aspx</DependentUpon>
+    <Compile Include="Notices.aspx.cs">
+      <DependentUpon>Notices.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Notice.aspx.designer.cs">
-      <DependentUpon>Notice.aspx</DependentUpon>
+    <Compile Include="Notices.aspx.designer.cs">
+      <DependentUpon>Notices.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Schedule.aspx.cs">

@@ -7,13 +7,11 @@
 // </자동 생성됨>
 //------------------------------------------------------------------------------
 
-namespace Beatus
-{
-
-
-    public partial class Coding
-    {
-
+namespace Beatus {
+    
+    
+    public partial class Codings {
+        
         /// <summary>
         /// form1 컨트롤입니다.
         /// </summary>

@@ -35,18 +35,18 @@
             <center>
                 <table class="asd">
                     <tr class="asd">
-                        <td class="asd"><a class="tops" href="http://www.google.com" target="_self">공지사항</a></td>
-                        <td class="asd"><a href="http://www.google.com" target="_self" class="tops">코딩게시판</a></td>
-                        <td class="asd"><a href="http://www.google.com" target="_self" class="tops">동아리소개</a></td>
-                        <td class="asd"><a href="http://www.google.com" target="_self" class="tops">일정</a></td>
-                        <td class="asd"><a href="http://www.google.com" target="_self" class="tops">갤러리</a></td>
+                        <td class="asd"><a class="tops" href="Notices.aspx" target="_self">공지사항</a></td>
+                        <td class="asd"><a href="Codings" target="_self" class="tops">코딩게시판</a></td>
+                        <td class="asd"><a href="About.aspx" target="_self" class="tops">동아리소개</a></td>
+                        <td class="asd"><a href="Schedule.aspx" target="_self" class="tops">일정</a></td>
+                        <td class="asd"><a href="Gallery.aspx" target="_self" class="tops">갤러리</a></td>
                     </tr>
                 </table>
             </center>
         </div>
 
         <!---orangeLineSlim2--->
-        <div class="    " style="height: 2px"></div>
+        <div class="orng" style="height: 2px"></div>
 
        	<asp:ContentPlaceHolder ID="Contents" runat="server">
 	</asp:ContentPlaceHolder>
