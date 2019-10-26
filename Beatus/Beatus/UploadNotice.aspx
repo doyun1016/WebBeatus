@@ -1,8 +1,7 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="UploadNotice.aspx.cs" MasterPageFile="~/User.Master" Inherits="Beatus.UploadNotice" %>
-
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
+<asp:Content ID="head" ContentPlaceHolderID="Header" runat="server">
+</asp:Content>
+<asp:Content ID="Content" ContentPlaceHolderID="Contents" runat="server">
 <head runat="server">
     <title>공지사항 업로드</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -47,4 +46,4 @@
   <div class='under'></div>
     </form>
 </body>
-</html>
+</asp:Content>
