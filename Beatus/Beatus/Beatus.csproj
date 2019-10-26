@@ -142,35 +142,36 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
-    <Content Include="assets\css\Coding.css" />
-    <Content Include="assets\css\default.css" />
-    <Content Include="assets\css\Coding_Upload.css" />
+	<Content Include="assets\css\Gallery.css" />
+	<Content Include="assets\css\Coding_Upload.css" />
     <Content Include="assets\css\Schedule.css" />
     <Content Include="assets\css\Notice.css" />
     <Content Include="assets\css\Intro.css" />
+    <Content Include="assets\css\Coding.css" />
+    <Content Include="assets\css\default.css" />
     <Content Include="assets\css\Login.css" />
     <Content Include="assets\css\MainPageSlider.css" />
     <Content Include="assets\css\MainPageStyle.css" />
     <Content Include="assets\css\UploadNotice.css" />
     <Content Include="assets\JS\MainPageScript.js" />
-    <Content Include="Coding.aspx" />
-    <Content Include="Coding_Upload.aspx" />
-    <Content Include="Content\bootstrap-grid.css" />
-    <Content Include="Content\bootstrap-grid.min.css" />
-    <Content Include="Content\bootstrap-reboot.css" />
-    <Content Include="Content\bootstrap-reboot.min.css" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
-    <Content Include="Intro.aspx" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="mainPage.aspx" />
     <Content Include="Login.aspx" />
-    <Content Include="Notice.aspx" />
-    <Content Include="Schedule.aspx" />
-    <Content Include="Scripts\bootstrap.bundle.js" />
-    <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\bootstrap.min.js.map" />
@@ -260,13 +261,6 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Intro.aspx.cs">
-      <DependentUpon>Intro.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Intro.aspx.designer.cs">
-      <DependentUpon>Intro.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>

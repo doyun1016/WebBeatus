@@ -1,7 +1,6 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/User.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Beatus._Default" %>
 
-<asp:Content ID ="Head" ContentPlaceHolderID="Header">
-
+<asp:Content ID="Head" ContentPlaceHolderID="Header" runat="server">
 </asp:Content>
 <asp:Content ID="BodyContent" ContentPlaceHolderID="Contents" runat="server">
 
