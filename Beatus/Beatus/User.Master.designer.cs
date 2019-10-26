@@ -7,36 +7,27 @@
 // </자동 생성됨>
 //------------------------------------------------------------------------------
 
-namespace Beatus2 {
+namespace Beatus {
     
     
-    public partial class Login {
+    public partial class User {
         
         /// <summary>
-        /// form1 컨트롤입니다.
+        /// Header 컨트롤입니다.
         /// </summary>
         /// <remarks>
         /// 자동 생성 필드입니다.
         /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder Header;
         
         /// <summary>
-        /// UserIDtxt 컨트롤입니다.
+        /// Contents 컨트롤입니다.
         /// </summary>
         /// <remarks>
         /// 자동 생성 필드입니다.
         /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox UserIDtxt;
-        
-        /// <summary>
-        /// UserPWtxt 컨트롤입니다.
-        /// </summary>
-        /// <remarks>
-        /// 자동 생성 필드입니다.
-        /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox UserPWtxt;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder Contents;
     }
 }

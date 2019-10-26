@@ -8,7 +8,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace Beatus2
+namespace Beatus
 {
     public partial class Login : System.Web.UI.Page
     {
@@ -38,8 +38,8 @@ namespace Beatus2
             MySqlCommand cmd = new MySqlCommand("Select * from user where UserID = @Id and UserPW = @Password", con);
 
             cmd.CommandType = CommandType.Text;
-            cmd.Parameters.AddWithValue("@Id", UserID.Text);
-            cmd.Parameters.AddWithValue("@Password", UserPW.Text);
+            //cmd.Parameters.AddWithValue("@Id", UserID.Text);
+            //cmd.Parameters.AddWithValue("@Password", UserPW.Text);
             obj = cmd.ExecuteScalar();
             MySqlDataReader reader = cmd.ExecuteReader();
 
@@ -47,12 +47,12 @@ namespace Beatus2
 
             {
 
-                Session["UserID"] = UserID.Text;
-                    
-   
+                //Session["UserID"] = UserID.Text;
 
-                    Page.ClientScript.RegisterClientScriptBlock(typeof(Page), "Alert", "alert('로그인 성공!')", true);
-                
+
+
+                Page.ClientScript.RegisterClientScriptBlock(typeof(Page), "Alert", "alert('로그인 성공!')", true);
+
             }
 
             else
@@ -63,7 +63,7 @@ namespace Beatus2
 
             }
 
-       
+
 
         }
     }

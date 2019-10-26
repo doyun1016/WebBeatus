@@ -1,0 +1,122 @@
+﻿* {
+    margin: 0;
+    font-family: SegoeUI;
+}
+
+@font-face {
+    font-family: Segoe UI;
+    src: local("Segoe UI Light"), url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff2) format("woff2"), url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff) format("woff"), url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.ttf) format("truetype");
+}
+
+.logo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 49px 10px;
+}
+
+.logOut {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 47px;
+    width: 47px;
+    border: 1px solid #ed7e32;
+    border-radius: 23px;
+    margin: 72px 59px;
+}
+
+.lcenter {
+    text-align: center;
+    margin-top: 35%;
+    font-size: 11px;
+    font-family: Segoe UI;
+}
+
+div.orng {
+    background-color: #ed7e32;
+}
+
+table,
+th,
+td.asd {
+    border-style: solid;
+    border-width: 0 1px;
+    border-color: #ed7e32;
+    text-align: center;
+    padding: 0 62.5px;
+    border-collapse: collapse;
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+a.tops:link {
+    color: #707070;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a.tops:visited {
+    color: #707070;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.coding {
+    color: #707070;
+    margin-top: 48px;
+    margin-left: 107px;
+    font-family: Segoe UI;
+}
+
+.line1 {
+    margin-top: 4%;
+    width: 95%;
+}
+
+.content {
+    margin-top: 48px;
+    border: 1px solid #115926;
+    width: 80%;
+    font-family: Segoe UI;
+    font-size: 15px;
+}
+
+.file {
+    position: absolute;
+    border: 1px solid #115926;
+    height: 46px;
+    width: 178px;
+    right: 185px;
+    margin-top: 10px;
+    font-size: 25px;
+    color: #707070;
+    font-family: Segoe UI;
+    text-align: center;
+}
+
+.line2 {
+    margin-top: 4%;
+    width: 81%;
+}
+
+.tangerine {
+    margin-top: 20px;
+    width: 60px;
+    position: absolute;
+    right: 10%;
+}
+
+.upload {
+    margin-top: 80px;
+    position: absolute;
+    right: 10.8%;
+    font-size: 15px;
+}
+
+.under {
+    background-color: white;
+    height: 126px;
+    width: 100%;
+}

@@ -7,7 +7,7 @@
 // </자동 생성됨>
 //------------------------------------------------------------------------------
 
-namespace Beatus2 {
+namespace Beatus {
     
     
     public partial class Login {
