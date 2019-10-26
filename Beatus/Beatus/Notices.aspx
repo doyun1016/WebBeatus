@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/User.Master" AutoEventWireup="true" CodeBehind="Notice.aspx.cs" Inherits="Beatus.Notice" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/User.Master" AutoEventWireup="true" CodeBehind="Notices.aspx.cs" Inherits="Beatus.Notices" %>
 
 <asp:Content ID="Head" ContentPlaceHolderID="Header" runat="server">
 </asp:Content>

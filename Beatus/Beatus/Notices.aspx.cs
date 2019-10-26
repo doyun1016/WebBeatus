@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace Beatus
 {
-    public partial class Notice : System.Web.UI.Page
+    public partial class Notices : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
