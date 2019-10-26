@@ -142,8 +142,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
-	<Content Include="assets\css\Gallery.css" />
-	<Content Include="assets\css\Coding_Upload.css" />
+    <Content Include="assets\css\Gallery.css" />
+    <Content Include="assets\css\Coding_Upload.css" />
+    <Content Include="assets\css\Gallery9.css" />
     <Content Include="assets\css\Schedule.css" />
     <Content Include="assets\css\Notice.css" />
     <Content Include="assets\css\Intro.css" />
@@ -192,6 +193,7 @@
     <Content Include="Scripts\esm\popper.js.map" />
     <Content Include="Scripts\esm\popper-utils.min.js.map" />
     <Content Include="Scripts\esm\popper-utils.js.map" />
+    <Content Include="Gallery9.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -306,6 +308,13 @@
     </Compile>
     <Compile Include="mainPage.aspx.designer.cs">
       <DependentUpon>mainPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Gallery9.aspx.cs">
+      <DependentUpon>Gallery9.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gallery9.aspx.designer.cs">
+      <DependentUpon>Gallery9.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
