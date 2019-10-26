@@ -4,11 +4,13 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
 using System.Web;
+using Beatus2.Models;
 
 namespace Beatus2.Managers
 {
-    public class PostManager1
+    public static class PostManager
     {
+        //글 정보 가져오기
         public static Models.Post GetPost(int Id,string kind)
         {
             MySqlConnection conn = null;
@@ -43,7 +45,7 @@ namespace Beatus2.Managers
                 conn.Close();
             }
         }
-
+        //글 업로드
         public static int UploadPost(Models.Post post,string kind)
         {
             // 제목 또는 내용이 비어 있을 경우 종료
@@ -54,7 +56,7 @@ namespace Beatus2.Managers
             try
             {
                 // Connect to DB;
-                conn = new MySqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["Cnsalitaward"].ConnectionString);
+                conn = new MySqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["Beatus"].ConnectionString);
                 conn.Open();
 
                 int result = 0;
@@ -84,7 +86,7 @@ namespace Beatus2.Managers
                 conn.Close();
             }
         }
-        //작품 수정
+        //글 수정
         public static int ModifyPost(Models.Post post,string kind)
         {
             MySqlConnection con = new MySqlConnection(ConfigurationManager.ConnectionStrings["Beatus"].ConnectionString);
@@ -116,7 +118,7 @@ namespace Beatus2.Managers
 
 
         }
-
+        // 글삭제
         public static int DeletePost(int Id,string kind)
         {
             MySqlConnection con = new MySqlConnection(ConfigurationManager.ConnectionStrings["Beatus"].ConnectionString);
@@ -139,6 +141,88 @@ namespace Beatus2.Managers
             {
 
                 con.Close();
+            }
+        }
+        // 페이지 갯수 세기
+        public static int GetPagesCount(string kind)
+        {
+            MySqlConnection conn = null;
+            try
+            {
+                // Connect to DB;
+                conn = new MySqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["Beatus"].ConnectionString);
+                conn.Open();
+
+                // Get Notices Count
+                string sql = "SELECT count(*) FROM "+kind+";";
+                ; MySqlCommand cmd = new MySqlCommand(sql, conn);
+                int workCount = Convert.ToInt32(cmd.ExecuteScalar());
+
+                // 공지 갯수의 1의 자리가 0일 경우
+                if (workCount % 10 != 0)
+                {
+                    return workCount / 10 + 1;
+                }
+                else
+                {
+                    return workCount / 10;
+                }
+            }
+            catch (Exception e)
+            {
+                // TODO: 예외 처리
+                throw new Exception(e.Message);
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
+        //페이지 목록
+        public static List<Models.Post> GetPostsByPage(int page, string kind)
+        {
+
+            MySqlConnection conn = null;
+            try
+            {
+                // Connect to DB;
+                conn = new MySqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["Beatus"].ConnectionString);
+                conn.Open();
+
+                List<Models.Post> posts = new List<Models.Post>();
+
+                string sql = "SELECT count(*) FROM "+kind+"; ";
+                MySqlCommand cmd = new MySqlCommand(sql, conn);
+                int WorkCount = Convert.ToInt32(cmd.ExecuteScalar());
+
+                sql = "SELECT Id, UserID,Name,Title,Content,Date FROM " + kind+" ORDER BY Id DESC LIMIT 10 OFFSET " + ((page - 1) * 10) + ";";
+                cmd.CommandText = sql;
+
+                var dr = cmd.ExecuteReader();
+
+                while (dr.Read())
+                {
+                    posts.Add(new Models.Post
+                    {
+                        Id = (int)dr["Id"],
+                        UserID = (string)dr["UserID"],
+                        Content = (string)dr["Content"],
+                        Name = (string)dr["Name"],
+                        Title = (string)dr["Title"],
+                        Date = (DateTime)dr["Date"]
+                    });
+                }
+                dr.Close();
+                return posts;
+            }
+            catch (Exception e)
+            {
+                // TODO: 예외 처리
+                throw new Exception(e.Message);
+            }
+            finally
+            {
+                conn.Close();
             }
         }
     }
