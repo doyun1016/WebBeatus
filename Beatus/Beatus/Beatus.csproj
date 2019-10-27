@@ -179,6 +179,7 @@
     <Content Include="Intro.aspx" />
     <Content Include="mainPage.aspx" />
     <Content Include="Login.aspx" />
+    <Content Include="mainpage1.aspx" />
     <Content Include="Notices.aspx" />
     <Content Include="obj\Debug\Beatus.csproj.FileListAbsolute.txt" />
     <Content Include="Schedule.aspx" />
@@ -309,6 +310,13 @@
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mainpage1.aspx.cs">
+      <DependentUpon>mainpage1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mainpage1.aspx.designer.cs">
+      <DependentUpon>mainpage1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Mangers\PostManager.cs" />
     <Compile Include="Models\Post.cs" />
